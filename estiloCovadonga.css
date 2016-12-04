@@ -1,0 +1,60 @@
+/**Estilo del cuerpo**/
+
+body{
+    background-color: whitesmoke;
+}
+
+
+/**Estilos para los titulos**/
+
+h1{
+    color:orange;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h2,
+h3{
+    color:orange;
+}
+
+
+/**Tamaño y efectos de las imagenes**/
+
+.imagenGrande{
+    height: 210px;
+    width: 280px;
+}
+
+.imagenPeq{
+    height: 180px;
+    width:210px;
+}
+
+img:hover{
+    transform: scale(1.1);
+    margin-left: 1%;
+}
+
+/**Estilos para la tabla**/
+
+table{
+    border-collapse: separate;
+    border: 1px double;
+}
+table td{
+    border: 1px solid black;
+}
+
+.titulo{
+    text-align: center;
+}
+
+/**Efecto sobre los enlaces**/
+
+a:hover{
+    font-size:1.1em;
+    color:orangered;
+    font-weight: bold;
+    
+}
