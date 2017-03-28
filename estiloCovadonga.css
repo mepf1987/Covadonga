@@ -8,7 +8,7 @@ body{
 /**Estilos para los titulos**/
 
 h1{
-    color:orange;
+    color:white;
     text-align: center;
     text-transform: uppercase;
 }
@@ -22,13 +22,14 @@ h3{
 /**Tamaño y efectos de las imagenes**/
 
 .imagenGrande{
-    height: 210px;
-    width: 280px;
+    height:170px;
+    width: 240px;
+    margin: 0 6px;
 }
 
 .imagenPeq{
-    height: 180px;
-    width:210px;
+    height: 120px;
+    width:140px;
 }
 
 img:hover{
@@ -57,4 +58,100 @@ a:hover{
     color:orangered;
     font-weight: bold;
     
+}
+
+/**----------------------------------------------------------- NUEVOS ESTILOS -------------------------------------------------------------**/
+
+
+body{
+    border: 1px solid  orange;
+    width: 1200px;
+    margin:10px auto;
+
+}
+
+#cabecera{
+    width: 1200px;
+    background-color: orange;
+}
+
+#menu{
+    float: left;
+    width: 290px;
+    padding: 0 0 0 4px;
+}
+
+#contenido{
+    border-left: 1px solid black;
+    padding:0 4px 10px 10px ;
+    width: 888px;
+    margin: 0 ;
+    text-align: justify;
+    float: right;
+}
+
+section{
+    clear: both;
+}
+
+
+#introduccion img{
+    float: right;
+}
+
+#conjunto table{
+    
+    width: 850px;
+    margin: 1px auto;
+    font-size: 85%;
+    text-align: justify;
+}
+#conjunto table td p{
+
+    padding: 5px ;
+
+}
+
+
+footer{
+    text-align: right;
+    color: orange;
+    clear: both;
+    margin: 4px;
+
+}
+
+
+/**Estilos nuevo Pag.Lago Covadonga**/
+
+h3 a{
+   text-decoration: none;
+   color:orange;
+}
+
+#imgLago{
+    float: right;
+    margin: 0 6px 0 6px;
+}
+
+div>h2{
+    text-align: center;
+    text-decoration: underline;
+}
+
+/**Estilo del formulario**/
+
+legend{
+    color: orange;
+    font-weight: bold;
+}
+
+#mensaje{
+    width: 850px;
+    height: 300px;
+}
+
+.inputP{
+    width: 120px;
+    font-weight: bold;
 }
